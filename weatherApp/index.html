@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="card">
+        <div id="search">
+            <input type="text" id="search-input">
+            <button id="btn-search" type="submit"><img src="images/search.png" alt=""></button>
+        </div>
+        <div id="img-weather">
+            <img src="https://t3.ftcdn.net/jpg/04/60/01/36/360_F_460013622_6xF8uN6ubMvLx0tAJECBHfKPoNOR5cRa.jpg" alt="">
+        </div>
+        <div id="temp">
+            <span id="temp-data">---</span><span>°C</span>
+            
+        </div>
+        <div id="city">
+            <h1>-----</h1>
+        </div>
+        <div id="info">
+            <div id="humidity" class="info-child">
+                <img src="images/humidity.png" alt="">
+                <div>
+                    <div id="num-data">
+                        <h2 id="humid" class="num">--</h2>
+                        <h2>%</h2>
+                    </div>
+                    <h2 class="category">Humidity</h2>
+                </div>
+            </div>
+            <div id="wind-speed" class="info-child">
+                <img src="images/wind.png" alt="">
+                <div>
+                    <div id="num-data">
+                        <h2 id="speed" class="num">---</h2>
+                        <h2>km/h</h2>
+                    </div>
+                    
+                    <h2 class="category">Wind Speed</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="index.js">
+
+</script>
+</html>

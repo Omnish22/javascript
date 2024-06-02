@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins',sans-serif;
+    box-sizing: border-box;
+}
+
+#container{
+    width: 100%;
+    height: 100vh;
+    overflow-y: auto;
+    background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);
+    display: flex;
+    justify-content: space-between;
+}
+
+#left{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+#right{
+    width: 50%;
+    height: 100vh;
+}
+
+#left div {
+    margin-top: 100px;
+    width: 75%;
+}
+#left div h1 img{
+    width: 50px;
+    height: 50px;
+}
+
+#left div h1{
+    display: flex;
+    align-items: center;
+    color: #fff;
+    margin-bottom: 50px;
+}
+
+#left div button{
+    display: flex;
+    align-items: center;
+    color: #fff;
+    background: linear-gradient(135deg, #b59a83 0%, #8a5e45 100%);
+    border: 0;
+    padding: 15px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+#left div button img{
+    width: 30px;
+    height: 30px;
+}
+
+.input-box {
+    position: relative;
+    padding: 20px;
+    padding-bottom: 40px; /* Extra space at the bottom for the image */
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    min-height: 100px; /* Ensure there's enough height */
+    background: #f9f9f9;
+}
+
+.delPara {
+    position: absolute;
+    bottom: 10px; /* Position the image slightly above the bottom to stay within padding */
+    right: 10px; /* Position the image slightly left from the right to stay within padding */
+    width: 20px; /* Adjust the size of the image */
+    height: 20px; /* Adjust the size of the image */
+    cursor: pointer;
+}
+
+.past-notes{
+    width: 80%;
+    margin-right: 40px;
+}
