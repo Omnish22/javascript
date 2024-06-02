@@ -45,6 +45,13 @@ body{
     display: flex;
     align-items: center;
     position: relative;
+    transform: translateX(100%);
+    animation: moveleft 0.5s   forwards ;
+}
+@keyframes moveleft {
+    100%{
+        transform: translateX(0);
+    }
 }
 
 .icon{
